@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://trial.chatcompose.com/static/trial/all/global/export/css/main.5b1bd1fd.css" rel="stylesheet">
+  <script async type="text/javascript"
+    src="https://trial.chatcompose.com/static/trial/all/global/export/js/main.a7059cb5.js?user=trial_Lyrus&lang=ES"
+    user="trial_Lyrus" lang="ES"></script>
+  <link rel="stylesheet" href="css/estilo.css" />
+  <title>SISGO</title>
+
+</head>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<body>
+ 
+  <!-- I N I C I O -->
+  <section id="inicio">
+    <div class="contenido">
+      <header>
+        <div class="contenido-header">
+          <div class="logo">
+            <img src="img/logosg2.png" class="img_logo">
+          </div>
+          <h1></h1>
+          <nav id="nav" class="">
+
+            <ul id="links">
+              <li>
+                <a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a>
+              </li>
+              <li>
+                <a href="#acerca" onclick="seleccionar(this)">Acerca de</a>
+              </li>
+              <li>
+                <a href="#servicios" onclick="seleccionar(this)">Servicios</a>
+              </li>
+              <li>
+                <a href="#proyectos" onclick="seleccionar(this)">Proyectos</a>
+              </li>
+              <li>
+                <a href="#contacto" onclick="seleccionar(this)">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Icono del menu responsive -->
+          <div id="icono-nav" onclick="responsiveMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+
+          <div class="redes">
+            <a href="https://itsqmet.edu.ec/carreras-tecnologicas-blog/" target="_blank"><i class="fa-brands fa-chrome"></i></a>
+            <a href="https://www.facebook.com/ITSQMET.UIO" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/itsqmet/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+          </div>
+        </div>
+      </header>
+      <div class="presentacion">
+        <p class="bienvenida">Bienvenidos a:</p>
+        <br>
+        <h2>S I S G O<span></span><br></h2>
+        <p class="descripcion">
+          Creamos soluciones digitales efectivas que hagan frente a los
+          principales objetivos de nuestro clientes, utilizando tecnología
+          moderna.
+        </p>
+        <a href="#proyectos" class="button"><span>Ir a Proyectos</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCION Acerca de -->
+  <section id="acerca">
+    <div class="contenedor-foto">
+      <img src="img/empr.jpg" alt="" />
+    </div>
+    <div class="acerca">
+      <p class="titulo-seccion">La Empresa</p>
+      <p>
+        Llevamos más de 10 años desarrollando software para empresas y
+        corporaciones de latinoamérica que requieren sistemas ágiles en
+        desempeño sin perder usabilidad. <br>Sistemas que estén preparados para
+        requerimientos inesperados debido a la dinámica del negocio y que
+        continúen siendo sencillos para el usuario..
+      </p>
+
+      <!-- VIDEO -->
+
+      <div id="light">
+        <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+        <video id="VideoCard" width="700" controls>
+          <source src="video/video2.mp4" type="video/mp4">
+          <!--Browser does not support <video> tag -->
+        </video>
+      </div>
+
+      <div id="fade" onClick="lightbox_close();"></div>
+
+      <div>
+        <a href="#" class="buttonV" onclick="lightbox_open();"><span>Conócenos</span></a>
+      </div>
+
+
+      <script src="script.js"></script>
+    </div>
+  </section>
+  <!-- VIDEO terminado con acerca -->
+
+  <!-- SECCION S E R V I C I O S -->
+  <section id="servicios">
+    <h3 class="titulo-seccion">SERVICIOS</h3>
+    <div class="fila">
+      <div class="servicio">
+        <span class="icono"> <i class="fa-solid fa-code"></i></span>
+        <h4>Diseño de Sitios Web</h4>
+        <hr />
+        <p class="master">Ing. Carlos Suárez</p>
+        <p>
+          El diseño web es un área enfocada en el desarrollo de interfaces digitales, como el diseño de sitios y
+          aplicaciones para web.
+        </p>
+      </div>
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+        <h4>Programación PHP</h4>
+        <hr />
+        <p class="master">Ing. Verónica Zapata</p>
+        <p>
+          El lenguaje PHP, es un lenguaje de programación que permite el desarrollo web o aplicaciones web dinámicas.
+        </p>
+      </div>
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+        <h4>Posicionamiento SEO</h4>
+        <hr />
+        <p class="master">Ing. Raúl Garrido</p>
+        <p>
+          Técnicas y estrategias de optimización que se implementan en un sitio web con la finalidad de mejorar el
+          posicionamiento orgánico y lograr captar mayor cantidad de tráfico.
+        </p>
+      </div>
+    </div>
+    <div class="fila">
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-database"></i></span>
+        <h4>Desarrollo</h4>
+        <hr />
+        <p class="master">Ing. Jenny Quingla</p>
+        <p>
+          Es un conjunto de procesos y procedimientos involucrados en la escritura de software para dispositivos
+          informáticos pequeños e inalámbricos.
+        </p>
+      </div>
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-palette"></i></span>
+        <h4>Diseñador Gráfico</h4>
+        <hr />
+        <p class="master">Ing. Aquiles Caigo</p>
+        <p>
+          Su misión va más allá de realizar bocetos, dibujos y diseños; ya que tiene como principal objetivo plasmar en
+          imágenes los mensajes que se quieren trasmitir.
+        </p>
+      </div>
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+        <h4>Consultoría Externa</h4>
+        <hr />
+        <p class="master">Ing. Rosa Granizo</p>
+        <p>
+          Siempre es necesario un punto de vista neutral y objetivo sobre una tema determinado.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCION COMPETENCIAS -->
+  <div class="contenedor-skills" id="skills">
+    <h3>COMPETENCIAS</h3>
+    <div class="skill">
+      <div class="info">
+        <p><span class="lista"> </span>Innovación</p>
+        <span class="porcentaje">100%</span>
+      </div>
+
+      <div class="barra">
+        <div class="" id="nova"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="info">
+        <p><span class="lista"> </span>Calidad</p>
+        <span class="porcentaje">100%</span>
+      </div>
+
+      <div class="barra">
+        <div class="" id="cal"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="info">
+        <p><span class="lista"> </span>Cumplimiento</p>
+        <span class="porcentaje">100%</span>
+      </div>
+
+      <div class="barra">
+        <div class="" id="cum"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="info">
+        <p><span class="lista"> </span>Servicio</p>
+        <span class="porcentaje">100%</span>
+      </div>
+
+      <div class="barra">
+        <div class="" id="ser"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos">
+    <h3 class="titulo-seccion">Proyectos</h3>
+
+    <div class="fila">
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <a title="proyecto1" href="contacto.html"> <img src="img/proyecto1.jpg" alt="" /></a>
+        <div class="info">
+          <h4>Aplicaciones Hibridas</h4>
+          <p>Desarrollo</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <a title="proyecto2" href="contacto.html"> <img src="img/proyecto2.jpg" alt="" /></a>
+
+        <div class="info">
+          <h4>Sitio WEB para SYSCOV</h4>
+          <p>Diseño Web</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <a title="proyecto3" href="contacto.html"> <img src="img/proyecto3.jpg" alt="" /></a>
+        <div class="info">
+          <h4>Realizacion UX/UI</h4>
+          <p>Diseño Gráfico</p>
+        </div>
+      </div>
+    </div>
+    <div class="fila">
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <a title="proyecto4" href="contacto.html"> <img src="img/proyecto4.jpg" alt="" /></a>
+        <div class="info">
+          <h4>Capacitación PUCE</h4>
+          <p>Consultoria Externa</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <a title="proyecto5" href="contacto.html"> <img src="img/proyecto5.jpg" alt="" /></a>
+        <div class="info">
+          <h4>LP. ISSFA</h4>
+          <p>Diseño Web</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <a title="proyecto6" href="contacto.html"> <img src="img/proyecto6.jpg" alt="" /></a>
+        <div class="info">
+          <h4>App Movil Koala INC</h4>
+          <p>Desarrollo</p>
+        </div>
+      </div>
+    </div>
+    <div class="fila">
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <a title="proyecto7" href="contacto.html"> <img src="img/proyecto7.jpg" alt="" /></a>
+        <div class="info">
+          <h4>Sitio Web SOYODA</h4>
+          <p>Diseño Web</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <a title="proyecto8" href="contacto.html"> <img src="img/proyecto8.jpg" alt="" /></a>
+        <div class="info">
+          <h4>Corporación El Rosado</h4>
+          <p>SEO</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <a title="proyecto9" href="contacto.html"> <img src="img/proyecto9.jpg" alt="" /></a>
+        <div class="info">
+          <h4>Corporación ALIMEC</h4>
+          <p>SEO</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- C O N T A C T O S-->
+  <section id="contacto">
+    <h3 class="titulo-seccion">Contáctanos ahora</h3>
+    <div class="contenedor-form">
+      <form action="">
+        <div class="fila mitad">
+          <input type="text" placeholder="Nombre Completo *" class="input-mitad" />
+          <input type="email" placeholder="Dirección de Email" class="input-mitad" />
+        </div>
+        <div class="fila">
+          <input type="text" placeholder="Tema..." class="input-full" />
+        </div>
+        <div class="fila">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+        </div>
+
+        <input type="submit" value="Enviar Mensaje" class="btn-enviar" />
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>RSS &copy;Desing.Todos los derechos reservados - 2023</p>
+    <div class="redes">
+      <a href="https://itsqmet.edu.ec/carreras-tecnologicas-blog/"target="_blank"><i class="fa-brands fa-chrome"></i></a>
+      <a href="https://www.facebook.com/ITSQMET.UIO" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/itsqmet/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  
+</body>
+
+</html>
