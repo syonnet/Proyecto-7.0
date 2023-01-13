@@ -212,7 +212,7 @@ html {
 
 #icono-nav {
   color: rgb(253, 252, 252);
-  
+  display: none;
 }
 @keyframes animate_border {
   to {
